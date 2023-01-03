@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/discussion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="63dp"
+    android:background="@color/white"
+    tools:context=".Fragments.DiscussionFragment">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_baseline_keyboard_backspace_24" />
+
+
+    <ListView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout_add_message"
+        android:layout_below="@+id/back"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="70dp"
+        android:background="@null"
+        android:divider="@null"
+        android:transcriptMode="alwaysScroll"
+        android:longClickable="true"
+        tools:ignore="NotSibling,ObsoleteLayoutParam" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/delete_message"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="100dp"
+                android:layout_marginBottom="15dp"
+                app:backgroundTint="#CF1818"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:elevation="10dp"
+                app:fabCustomSize="40dp"
+                app:fabSize="mini"
+                app:maxImageSize="30dp"
+                app:rippleColor="@color/red"
+                app:srcCompat="@drawable/ic_baseline_delete_24"
+                android:visibility="gone"
+                app:tint="#FFFFFF" />
+
+            <LinearLayout
+                android:id="@+id/layout_add_message"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="5dp"
+                android:elevation="2dp"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/message"
+                    android:layout_width="317dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.8"
+                    android:background="@drawable/shape_message"
+                    android:hint="@string/text"
+                    android:inputType="textMultiLine"
+                    android:paddingStart="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="12dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/send_message"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:backgroundTint="#CF1818"
+
+                    app:elevation="10dp"
+                    app:fabCustomSize="40dp"
+                    app:fabSize="mini"
+                    app:maxImageSize="40dp"
+                    app:rippleColor="@color/red"
+                    app:srcCompat="@drawable/send_foreground"
+                    app:tint="#FFFFFF" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+</FrameLayout>

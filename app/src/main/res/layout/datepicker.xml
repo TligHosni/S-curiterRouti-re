@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/button_add_rapport"
+    android:elevation="10dp"
+    android:orientation="vertical">
+
+        <DatePicker
+            android:id="@+id/datePicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/confirm_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            tools:ignore="MissingConstraints" />
+
+</LinearLayout>

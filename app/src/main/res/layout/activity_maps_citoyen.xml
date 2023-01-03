@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3C1C1"
+    tools:context=".Activities.Maps_Citoyen">
+
+
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:radius="18dp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/historique"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:elevation="10dp"
+        android:src="@drawable/ic_round_history_24"
+        app:backgroundTint="#F44040"
+        app:fabCustomSize="70dp"
+        app:fabSize="normal"
+        app:maxImageSize="35dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/picker"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/placeholder" />
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/ajoutAccident"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="90dp"
+        android:elevation="10dp"
+        android:src="@drawable/car_collision"
+        app:backgroundTint="#F44040"
+        app:fabCustomSize="70dp"
+        app:fabSize="normal"
+        app:maxImageSize="35dp" />
+
+
+</RelativeLayout>

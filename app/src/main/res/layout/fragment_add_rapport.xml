@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.AddRapportFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="63dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="295dp"
+                android:textAppearance="?android:attr/textAppearanceMedium">
+
+            </com.google.android.gms.maps.MapView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@id/map"
+                android:layout_marginTop="10dp"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/typeU"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Type"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000205" />
+
+                    <Spinner
+                        android:id="@+id/spinnertype"
+                        android:layout_width="100dp"
+                        android:layout_height="44dp"
+                        android:layout_below="@+id/addimage"
+                        app:smsp_floatingLabelColor="#1976D2"
+                        app:smsp_floatingLabelText="Floating Label Text"
+                        app:smsp_hint="Hint Text"
+                        app:smsp_hintColor="#388E3C"
+                        app:smsp_itemColor="#512DA8"
+                        app:smsp_itemListColor="#7C4DFF"
+                        app:smsp_itemListHintBackgroundColor="#808080"
+                        app:smsp_itemListHintColor="#FFFFFF"
+                        app:smsp_multilineError="false"
+                        app:smsp_selectedItemListColor="#FF5252" />
+
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/ageU"
+                    android:layout_width="wrap_content"
+                    android:layout_height="47dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    android:background="@drawable/bachground_cadre_white"
+                    android:elevation="5dp"
+                    android:gravity="center"
+                    android:hint="Age"
+                    android:inputType="number"
+                    android:textColor="#2196F3"
+                    android:textColorHint="@color/greay"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/nbr_mort"
+                    android:layout_width="112dp"
+                    android:layout_height="47dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/bachground_cadre_white"
+                    android:elevation="5dp"
+                    android:gravity="center"
+                    android:hint="Nb morts"
+                    android:inputType="number"
+                    android:textColor="#2196F3"
+                    android:textColorHint="@color/greay"
+                    android:textSize="15sp"
+                    tools:ignore="DuplicateIds" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/map"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/l1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/sexe_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="left"
+                        android:text="Genre Chauffeur:"
+                        android:textColor="#000000" />
+
+                    <RadioGroup
+                        android:id="@+id/radiogroup_sexe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        tools:ignore="MissingConstraints">
+
+                        <RadioButton
+                            android:id="@+id/homme"
+                            android:layout_width="wrap_content"
+                            android:layout_height="31dp"
+                            android:layout_marginRight="20dp"
+                            android:buttonTint="#000000"
+                            android:gravity="center"
+                            android:text="Homme" />
+
+                        <RadioButton
+                            android:id="@+id/femme"
+                            android:layout_width="wrap_content"
+                            android:layout_height="31dp"
+                            android:buttonTint="#000000"
+                            android:gravity="center"
+                            android:text="Femme" />
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/map"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/spinner_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Vitesse"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000" />
+
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_width="109dp"
+                        android:layout_height="44dp"
+                        android:layout_gravity="center"
+                        app:smsp_floatingLabelColor="#1976D2"
+                        app:smsp_floatingLabelText="Floating Label Text"
+                        app:smsp_hint="Hint Text"
+                        app:smsp_hintColor="#388E3C"
+                        app:smsp_itemColor="#512DA8"
+                        app:smsp_itemListColor="#7C4DFF"
+                        app:smsp_itemListHintBackgroundColor="#808080"
+                        app:smsp_itemListHintColor="#FFFFFF"
+                        app:smsp_multilineError="false"
+                        app:smsp_selectedItemListColor="#FF5252" />
+
+                    <EditText
+                        android:id="@+id/vehicule"
+                        android:layout_width="139dp"
+                        android:layout_height="47dp"
+                        android:layout_margin="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/bachground_cadre_white"
+                        android:elevation="5dp"
+                        android:gravity="center"
+                        android:hint="@string/Vehicule"
+                        android:textColor="#2196F3"
+                        android:textColorHint="@color/greay"
+                        android:textSize="20sp"
+                        tools:ignore="DuplicateIds" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/alcole"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/naissance"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/al_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="left"
+                        android:text="Test alcolique:"
+                        android:textColor="#000000" />
+
+                    <RadioGroup
+                        android:id="@+id/radiogroup_alcole"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        tools:ignore="MissingConstraints">
+
+                        <RadioButton
+                            android:id="@+id/pos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="31dp"
+                            android:layout_marginRight="20dp"
+                            android:buttonTint="#000000"
+                            android:gravity="center"
+                            android:text="Positive" />
+
+                        <RadioButton
+                            android:id="@+id/neg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="31dp"
+                            android:buttonTint="#000000"
+                            android:gravity="center"
+                            android:text="Negative" />
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="430dp"
+                android:layout_below="@id/map"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/detailR"
+                    android:layout_width="match_parent"
+                    android:layout_height="122dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/bachground_cadre_white"
+                    android:elevation="5dp"
+                    android:gravity="center"
+                    android:hint="Detail Route"
+                    android:inputType="textMultiLine"
+                    android:textColor="#2196F3"
+                    android:textColorHint="@color/greay"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/detailE"
+                    android:layout_width="match_parent"
+                    android:layout_height="122dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/bachground_cadre_white"
+                    android:elevation="5dp"
+                    android:gravity="center"
+                    android:hint="Detail Environment"
+                    android:inputType="textMultiLine"
+                    android:textColor="#2196F3"
+                    android:textColorHint="@color/greay"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="122dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/bachground_cadre_white"
+                    android:elevation="5dp"
+                    android:gravity="center"
+                    android:hint="Description Accident"
+                    android:inputType="textMultiLine"
+                    android:textColor="#2196F3"
+                    android:textColorHint="@color/greay"
+                    android:textSize="20sp" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shape_add_image"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_baseline_add_a_photo_24" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/addR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape1"
+                    android:text="Ajouter" />
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/shape1"
+                    android:text="Annuler" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

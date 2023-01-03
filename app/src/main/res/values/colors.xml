@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <color name="colorPrimary">#024265</color>
+        <color name="colorPrimaryDark">#024265</color>
+        <color name="colorAccent">#05af9b</color>
+
+        <color name="color_one">#fb7268</color>
+        <color name="color_white">#ededf2</color>
+        <color name="color_two">#E3E0E0</color>
+
+        <color name="R">#FFA726</color>
+        <color name="Python">#66BB6A</color>
+        <color name="CPP">#EF5350</color>
+        <color name="red">#EF5350</color>
+        <color name="Java">#29B6F6</color>
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="greay">#6C6B6B</color>
+    <declare-styleable name="SmartMaterialSpinner">
+        <attr format="string" name="smsp_typeface"/>
+        <attr format="color|reference" name="smsp_baseColor"/>
+        <attr format="color|reference" name="smsp_highlightColor"/>
+
+        <attr format="reference" name="smsp_itemView"/>
+        <attr format="reference" name="smsp_dropdownView"/>
+        <attr format="reference" name="smsp_searchDropdownView"/>
+
+        <attr format="boolean" name="smsp_isSearchable"/>
+        <attr format="boolean" name="smsp_showKeyboardOnStart"/>
+        <attr format="boolean" name="smsp_enableSearchHeader"/>
+        <attr format="string" name="smsp_searchHeaderText"/>
+        <attr format="color|reference" name="smsp_searchHeaderTextColor"/>
+        <attr format="color|reference" name="smsp_searchHeaderBackgroundColor"/>
+        <attr format="string" name="smsp_searchHint"/>
+        <attr format="color" name="smsp_searchHintColor"/>
+        <attr format="color" name="smsp_searchTextColor"/>
+        <attr format="color" name="smsp_searchFilterColor"/>
+        <attr format="color|reference" name="smsp_searchBackgroundColor"/>
+        <attr format="boolean" name="smsp_enableDismissSearch"/>
+        <attr format="string" name="smsp_dismissSearchText"/>
+        <attr format="color" name="smsp_dismissSearchColor"/>
+
+        <attr format="dimension" name="smsp_itemSize"/>
+        <attr format="color|reference" name="smsp_itemColor"/>
+
+        <attr format="boolean" name="smsp_autoSelectable"/>
+        <attr format="boolean" name="smsp_showDropdownHint"/>
+        <attr format="string" name="smsp_hint"/>
+        <attr format="dimension" name="smsp_hintSize"/>
+        <attr format="color|reference" name="smsp_hintColor"/>
+
+        <attr format="color|reference" name="smsp_itemListColor"/>
+        <attr format="color|reference" name="smsp_selectedItemListColor"/>
+
+        <!--<attr name="smsp_showItemListHint" format="boolean" />-->
+        <attr format="color|reference" name="smsp_itemListHintColor"/>
+        <attr format="color|reference" name="smsp_itemListHintBackgroundColor"/>
+        <attr format="color|reference" name="smsp_itemListBackgroundColor"/>
+
+        <attr format="boolean" name="smsp_enableFloatingLabel"/>
+        <attr format="boolean" name="smsp_alwaysShowFloatingLabel"/>
+        <attr format="string" name="smsp_floatingLabelText"/>
+        <attr format="dimension" name="smsp_floatingLabelSize"/>
+        <attr format="color|reference" name="smsp_floatingLabelColor"/>
+
+        <attr format="dimension" name="smsp_arrowSize"/>
+        <attr format="color|reference" name="smsp_arrowColor"/>
+        <attr format="dimension" name="smsp_arrowPaddingLeft"/>
+        <attr format="dimension" name="smsp_arrowPaddingTop"/>
+        <attr format="dimension" name="smsp_arrowPaddingRight"/>
+        <attr format="dimension" name="smsp_arrowPaddingBottom"/>
+        <attr format="dimension" name="smsp_paddingLeftRight"/>
+
+        <attr format="dimension" name="smsp_underlineSize"/>
+        <attr format="color|reference" name="smsp_underlineColor"/>
+
+        <attr format="boolean" name="smsp_enableErrorLabel"/>
+        <attr format="string" name="smsp_errorText"/>
+        <attr format="dimension" name="smsp_errorTextSize"/>
+        <attr format="color|reference" name="smsp_errorTextColor"/>
+        <attr format="boolean" name="smsp_multilineError"/>
+        <attr format="integer" name="smsp_nbErrorLine"/>
+        <attr format="enum" name="smsp_errorTextAlignment">
+            <enum name="align_left" value="0"/>
+            <enum name="align_center" value="1"/>
+            <enum name="align_right" value="2"/>
+        </attr>
+
+        <attr format="boolean" name="smsp_alignLabel"/>
+        <attr format="boolean" name="smsp_isRtl"/>
+        <!--<attr name="smsp_enableDefaultSelect" format="boolean" />-->
+        <attr format="boolean" name="smsp_isReSelectable"/>
+
+        <attr format="boolean" name="smsp_isOutlined"/>
+        <attr format="dimension" name="smsp_outlinedBoxRadius"/>
+        <attr format="dimension" name="smsp_outlinedHintStartX"/>
+        <attr format="dimension" name="smsp_outlinedHintPadding"/>
+        <attr format="dimension" name="smsp_outlinedStrokeWidth"/>
+        <attr format="color|reference" name="smsp_outlinedBoxColor"/>
+    </declare-styleable>
+
+
+</resources>

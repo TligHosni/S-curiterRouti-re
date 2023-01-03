@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".Fragments.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/notif_title"
+                android:layout_width="294dp"
+                android:layout_height="87dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:hint="Notif_Title..."
+                android:textColorHint="@color/greay"
+                android:background="@drawable/edit_round"
+                android:textColor="#2196F3"
+                android:textSize="30sp"
+
+                />
+
+            <EditText
+                android:id="@+id/notif_details"
+                android:layout_width="294dp"
+                android:layout_height="87dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:hint="details.."
+                android:textColorHint="@color/greay"
+                android:background="@drawable/edit_round"
+                android:gravity="center"
+                android:textColor="#2196F3"
+                android:textSize="30sp"
+
+                />
+
+
+            <Button
+                android:id="@+id/send_notif"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape1"
+                android:text="OK" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</FrameLayout>

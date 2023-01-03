@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Sécurité Routière</string>
+    <string name="login">Se Connecter</string>
+    <string name="reset_password">Mot de passe Oublier !!</string>
+    <string name="phone_placeholder">n°Téléphone</string>
+    <string name="password_placeholder">Mot de passe </string>
+    <string name="password_Newplaceholder">Nouveau mot de passe </string>
+    <string name="confirm_pass">Confirmer mot de passe </string>
+    <string name="welcome">Bienvenue </string>
+    <string name="name">Nom</string>
+    <string name="sexe">Sexe </string>
+    <string name="homme">Homme </string>
+    <string name="femme">Femme </string>
+    <string name="Message">Message </string>
+    <string name="logout">Déconnexion </string>
+    <string name="email">email </string>
+    <string name="reset">Reset </string>
+    <string name="verify">Vérifier </string>
+    <string name="dialog">Dialog_title </string>
+    <string name="profile">Profile </string>
+    <string name="naissance">Naissance </string>
+    <string name="create_account">Don\'t have a account ?? </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_drawer">drawer_Activity</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Acceuil</string>
+    <string name="menu_gallery">Galerie</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="home">Acceuil</string>
+    <string name="Subject">Sujet</string>
+    <string name="ViewListe">View Liste_Users</string>
+    <string name="welcomeh">Bienvenue</string>
+    <string name="send">Envoyer</string>
+    <string name="Search">search</string>
+    <string name="contacts_liste">Contacts</string>
+    <string name="text">Message..</string>
+    <string name="contact_us">Contacter Chef</string>
+    <string name="Notification">Notification</string>
+    <string name="Alarm">Alarm</string>
+    <string name="Setting">Settings</string>
+    <string name="Notification_liste">Notifications</string>
+    <string name="title">title</string>
+    <string name="body">body</string>
+    <string name="Rapports_liste">Rapports</string>
+    <string name="id">Id</string>
+    <string name="ID">ID</string>
+    <string name="Date">Date</string>
+    <string name="TypeUsager">Type Usager</string>
+    <string name="AgeUsager">Age Usager</string>
+    <string name="SexeUsager">Sexe Usager</string>
+    <string name="DetailRoute">Detail Route</string>
+    <string name="DetailEnvironment">Detail Environment</string>
+    <string name="Detail_Environment">Detail Environment</string>
+    <string name="Vehicule">Vehicule</string>
+    <string name="type_usager">Type</string>
+    <string name="title_activity_maps_citoyen">Maps_Citoyen</string>
+    <string name="ajouter_rapport">Ajouter Rapport</string>
+    <string name="vous_etes_sur_d_ajouter_l_accident">Vous êtes sûre d\'ajouter l\'accident ?</string>
+    <string name="vous_etes_sur_d_confirmer_l_accident">Vous êtes sûre de confirmer le déclaration ?</string>
+    <string name="register">register</string>
+    <string name="todo">TODO</string>
+    <string name="activer">ACTIVER \n LE MODE CONDUITE</string>
+    <string name="le_mode">LE MODE</string>
+    <string name="votre_commentaire">Votre commentaire...</string>
+    <string name="votrecommentaire">Votre commentaire..</string>
+    <string name="g_olocalisation_n_lorsque_vous_activez_la_fonction_de_g_olocalisation_via_bluetooth_sur_votre_appareil_mobile_la_s_curit_routi_re_utilise_strictement_ces_renseignements_pour_am_liorer_l_utilisabilit_de_l_application_par_exemple_mais_ne_se_limitant_pas_l_ajout_automatique_de_votre_position_actuelle_sur_une_carte_du_biod_me_g_ographique_dans_l_application_ou_la_d_tection_de_votre_pr_sence_dans_une_zone_du_parcours_de_l_insectarium_s_curit_routi_re_ne_conserve_pas_de_traces_de_vos_d_placements_lorsque_vous_utilisez_l_application_vous_pouvez_aussi_d_sactiver_la_fonction_de_g_olocalisation_de_votre_appareil_en_tout_temps_en_vous_r_f_rant_aux_instructions_du_fabricant_la_d_sactivation_de_la_fonction_de_g_olocalisation_pourrait_toutefois_vous_emp_cher_d_avoir_acc_s_certaines_fonctionnalit_s_de_l_application_n_r_alit_augment_e_n_l_application_n_cessite_les_droits_d_acc_s_la_cam_ra_et_aux_fichiers_de_l_appareil_pour_l_utilisation_de_la_r_alit_augment_e_s_curit_routi_re_ne_conserve_ni_ne_sauvegarde_aucune_information_lorsque_vous_utilisez_l_application_n_reconnaissance_visuelle_n_l_application_n_cessite_les_droits_d_acc_s_la_cam_ra_et_aux_fichiers_de_l_appareil_pour_l_utilisation_de_la_reconnaissance_visuelle_s_curit_routi_re_conserve_et_sauvegarde_les_photographies_que_vous_prenez_dans_le_cadre_de_cette_fonctionnalit_dans_l_unique_but_d_am_liorer_la_performance_de_l_algorithme_qui_permet_l_identification_des_esp_ces_partir_de_photographies_n_fichiers_locaux_n_certaines_donn_es_sont_enregistr_es_et_stock_es_en_local_sur_le_t_l_phone_de_l_utilisateur_animal_favori_rappels_d_v_nements_moment_de_la_derni_re_utilisation_de_l_application_et_autres_elles_ne_sont_pas_sauvegard_es_en_ligne_toutes_les_donn_es_sont_supprim_es_lorsque_l_utilisateur_d_sinstalle_l_application_sauf_aux_fins_de_la_reconnaissance_visuelle_et_de_la_tenue_de_statistiques_et_uniquement_dans_les_limites_mentionn_es_aux_pr_sentes_conditions_d_utilisation_pour_la_reconnaissance_visuelle_et_la_tenue_de_statistiques_s_curit_routi_re_ne_conserve_ni_ne_sauvegarde_aucune_information_lorsque_vous_utilisez_l_application_n_statistiques_n_s_curit_routi_re_utilise_le_service_google_analytics_dans_l_application_en_vertu_des_conditions_g_n_rales_s_curit_routi_re_doit_informer_l_utilisateur_de_la_fa_on_dont_les_donn_es_seront_utilis_es_pour_plus_de_d_tails_consultez_les_r_gles_de_confidentialit_et_conditions_d_utilisation_de_google_https_www_google_com_intl_fr_policies_privacy_partners_s_curit_routi_re_conserve_par_ailleurs_l_information_sur_les_statistiques_de_visite_cette_information_est_enregistr_e_de_mani_re_anonyme_et_concerne_les_statistiques_de_visite_comme_les_pages_visit_es_liens_cliqu_s_favoris_enregistr_s_pour_comptabiliser_le_nombre_de_visiteurs_les_pages_les_plus_fr_quent_es_les_favoris_enregistr_s_la_technologie_utilis_e_par_la_client_le_de_ses_sites_les_sites_r_f_rents_et_le_pays_d_origine_des_internautes">Géolocalisation\n Lorsque vous activez la fonction de géolocalisation via Bluetooth sur votre appareil mobile, la sécurité routière utilise strictement ces renseignements pour améliorer l\'utilisabilité de l’Application, par exemple, mais ne se limitant pas à l’ajout automatique de votre position actuelle sur une carte du Biodôme géographique dans l’Application ou la détection de votre présence dans une zone du parcours de l’Insectarium. Sécurité routière ne conserve pas de traces de vos déplacements lorsque vous utilisez l’Application. Vous pouvez aussi désactiver la fonction de géolocalisation de votre appareil en tout temps en vous référant aux instructions du fabricant. La désactivation de la fonction de géolocalisation pourrait toutefois vous empêcher d’avoir accès à certaines fonctionnalités de l’Application.\n Réalité augmentée\n L\'Application nécessite les droits d\'accès à la caméra et aux fichiers de l\'appareil pour l\'utilisation de la réalité augmentée. Sécurité routière ne conserve ni ne sauvegarde aucune information lorsque vous utilisez l’Application.\n Reconnaissance visuelle\n L\'Application nécessite les droits d\'accès à la caméra et aux fichiers de l\'appareil pour l\'utilisation de la reconnaissance visuelle. Sécurité routière conserve et sauvegarde les photographies que vous prenez dans le cadre de cette fonctionnalité dans l’unique but d’améliorer la performance de l\'algorithme qui permet l’identification des espèces à partir de photographies.\n Fichiers locaux\n Certaines données sont enregistrées et stockées en local sur le téléphone de l’utilisateur (animal favori, rappels d\'événements, moment de la dernière utilisation de l’Application et autres). Elles ne sont pas sauvegardées en ligne. Toutes les données sont supprimées lorsque l’utilisateur désinstalle l’Application. Sauf aux fins de la reconnaissance visuelle et de la tenue de statistiques et uniquement dans les limites mentionnées aux présentes Conditions d’utilisation, pour la reconnaissance visuelle et la tenue de statistiques, Sécurité routière ne conserve ni ne sauvegarde aucune information lorsque vous utilisez l’Application.\n Statistiques\n Sécurité routière utilise le service Google Analytics dans l’Application. En vertu des conditions générales, Sécurité routière doit informer l’utilisateur de la façon dont les données seront utilisées. Pour plus de détails, consultez les Règles de confidentialité et conditions d’utilisation de Google : https://www.google.com/intl/fr/policies/privacy/partners. Sécurité routière conserve par ailleurs l\'information sur les statistiques de visite. Cette information est enregistrée de manière anonyme et concerne les statistiques de visite comme les pages visitées, liens cliqués, favoris enregistrés, pour comptabiliser le nombre de visiteurs, les pages les plus fréquentées, les favoris enregistrés, la technologie utilisée par la clientèle de ses sites, les sites référents et le pays d\'origine des internautes.</string>
+    <string name="dans_le_but_d_augmenter_la_s_curit_routi_re_nous_mettons_votre_disposition_cette_application_de_s_curit_routi_re_qui_permet_de_n_facilite_la_saisie_et_le_traitement_de_rapport_d_accident_n_intervention_rapide_de_police_n_interface_confort_facilite_aux_utilisateurs_de_trouver_sa_localisation_et_lui_envoie_une_alerte_s_il_y_a_un_accident_apr_s_une_distance_pr_cise_n_garantir_la_sauvegarde_de_donn_es_n_acc_s_rapide_aux_donn_es_pour_les_agents_de_police_n_facilite_le_pr_venir_la_protection_civile_n_rapidit_de_pr_venir_la_police_de_circulation">Dans le but d\'augmenter la sécurité routière , nous mettons à votre disposition cette application de sécurité routière qui permet de :\n - Facilite la saisie et le traitement de rapport d’accident.\n - Intervention rapide de police.\n - Interface confort facilite aux utilisateurs de trouver sa localisation et lui envoie une alerte s’il y a un accident après une distance précise. \n - Garantir la sauvegarde de données.\n - Accès rapide aux données pour les agents de police.\n - Facilite le prévenir la protection civile.\n - Rapidité de prévenir la police de circulation.</string>
+
+
+</resources>

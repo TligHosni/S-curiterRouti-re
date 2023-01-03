@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8D6D6"
+    tools:context=".Activities.regles">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/acceuil"
+        style="@style/AppTheme.ButtonStyle"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:backgroundTint="#F63E3E"
+        app:elevation="10dp"
+        app:fabCustomSize="65dp"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:maxImageSize="40dp"
+        app:srcCompat="@drawable/ic_round_home_24"
+        app:tint="#FFFFFF" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:background="@drawable/bachground_cadre_white"
+                android:elevation="5dp"
+                android:gravity="top|center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/logo6"
+                     />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/anton"
+                    android:text="À propos"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="104dp"
+                    tools:layout_editor_absoluteY="170dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/dans_le_but_d_augmenter_la_s_curit_routi_re_nous_mettons_votre_disposition_cette_application_de_s_curit_routi_re_qui_permet_de_n_facilite_la_saisie_et_le_traitement_de_rapport_d_accident_n_intervention_rapide_de_police_n_interface_confort_facilite_aux_utilisateurs_de_trouver_sa_localisation_et_lui_envoie_une_alerte_s_il_y_a_un_accident_apr_s_une_distance_pr_cise_n_garantir_la_sauvegarde_de_donn_es_n_acc_s_rapide_aux_donn_es_pour_les_agents_de_police_n_facilite_le_pr_venir_la_protection_civile_n_rapidit_de_pr_venir_la_police_de_circulation"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="13dp"
+                    tools:layout_editor_absoluteY="209dp" />
+            </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

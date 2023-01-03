@@ -1,0 +1,30 @@
+package master.pro.houssine.pfe.Activities;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
+import master.pro.houssine.pfe.R;
+
+public class regles extends AppCompatActivity {
+    FloatingActionButton acceuil;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_regles);
+
+        acceuil = findViewById(R.id.acceuil);
+        acceuil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(regles.this, AcceuilActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
+}

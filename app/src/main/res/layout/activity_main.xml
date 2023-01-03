@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:backgroundTint="#00FFFFFF"
+            app:fabAlignmentMode="center"
+            app:elevation="0dp"
+            app:fabCradleMargin="0dp"
+            app:fabCradleRoundedCornerRadius="0dp"
+            app:fabCradleVerticalOffset="5dp"
+            android:background="@drawable/bachground_cadre_white"
+           >
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/buttonPanel"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="5dp"
+            android:background="@drawable/bachground_cadre_white"
+            android:elevation="5dp"
+            app:elevation="4dp"
+            app:itemIconSize="26dp"
+            app:itemTextAppearanceActive="@style/BottomNavigationView.Active"
+            app:itemTextAppearanceInactive="@style/BottomNavigationView"
+            app:itemIconTint="@drawable/selector"
+            app:itemRippleColor="#F5F84C4C"
+            app:menu="@menu/buttom_menu_bar"/>
+        </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/rapport_fab"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        app:backgroundTint="#CF1818"
+        app:elevation="5dp"
+        app:fabCustomSize="65dp"
+        app:fabSize="normal"
+        app:layout_anchor="@+id/frame_layout"
+        app:layout_anchorGravity="bottom|center"
+        app:maxImageSize="33dp"
+        app:rippleColor="@color/red"
+        app:srcCompat="@drawable/ic_baseline_car_crash_24"
+        app:tint="#FFFFFF" />
+
+    <!--    <RelativeLayout-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="start"-->
+<!--        android:background="#919090">-->
+
+<!--        <include layout="@layout/header" />-->
+
+<!--    </RelativeLayout>-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8D6D6"
+    tools:context=".Activities.regles">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/acceuil"
+        style="@style/AppTheme.ButtonStyle"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:backgroundTint="#F63E3E"
+        app:elevation="10dp"
+        app:fabCustomSize="65dp"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:maxImageSize="40dp"
+        app:srcCompat="@drawable/ic_round_home_24"
+        app:tint="#FFFFFF" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/bachground_cadre_white"
+                android:elevation="5dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/logo6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/anton"
+                    android:text="Politique et confidentialité"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="104dp"
+                    tools:layout_editor_absoluteY="170dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:text="@string/g_olocalisation_n_lorsque_vous_activez_la_fonction_de_g_olocalisation_via_bluetooth_sur_votre_appareil_mobile_la_s_curit_routi_re_utilise_strictement_ces_renseignements_pour_am_liorer_l_utilisabilit_de_l_application_par_exemple_mais_ne_se_limitant_pas_l_ajout_automatique_de_votre_position_actuelle_sur_une_carte_du_biod_me_g_ographique_dans_l_application_ou_la_d_tection_de_votre_pr_sence_dans_une_zone_du_parcours_de_l_insectarium_s_curit_routi_re_ne_conserve_pas_de_traces_de_vos_d_placements_lorsque_vous_utilisez_l_application_vous_pouvez_aussi_d_sactiver_la_fonction_de_g_olocalisation_de_votre_appareil_en_tout_temps_en_vous_r_f_rant_aux_instructions_du_fabricant_la_d_sactivation_de_la_fonction_de_g_olocalisation_pourrait_toutefois_vous_emp_cher_d_avoir_acc_s_certaines_fonctionnalit_s_de_l_application_n_r_alit_augment_e_n_l_application_n_cessite_les_droits_d_acc_s_la_cam_ra_et_aux_fichiers_de_l_appareil_pour_l_utilisation_de_la_r_alit_augment_e_s_curit_routi_re_ne_conserve_ni_ne_sauvegarde_aucune_information_lorsque_vous_utilisez_l_application_n_reconnaissance_visuelle_n_l_application_n_cessite_les_droits_d_acc_s_la_cam_ra_et_aux_fichiers_de_l_appareil_pour_l_utilisation_de_la_reconnaissance_visuelle_s_curit_routi_re_conserve_et_sauvegarde_les_photographies_que_vous_prenez_dans_le_cadre_de_cette_fonctionnalit_dans_l_unique_but_d_am_liorer_la_performance_de_l_algorithme_qui_permet_l_identification_des_esp_ces_partir_de_photographies_n_fichiers_locaux_n_certaines_donn_es_sont_enregistr_es_et_stock_es_en_local_sur_le_t_l_phone_de_l_utilisateur_animal_favori_rappels_d_v_nements_moment_de_la_derni_re_utilisation_de_l_application_et_autres_elles_ne_sont_pas_sauvegard_es_en_ligne_toutes_les_donn_es_sont_supprim_es_lorsque_l_utilisateur_d_sinstalle_l_application_sauf_aux_fins_de_la_reconnaissance_visuelle_et_de_la_tenue_de_statistiques_et_uniquement_dans_les_limites_mentionn_es_aux_pr_sentes_conditions_d_utilisation_pour_la_reconnaissance_visuelle_et_la_tenue_de_statistiques_s_curit_routi_re_ne_conserve_ni_ne_sauvegarde_aucune_information_lorsque_vous_utilisez_l_application_n_statistiques_n_s_curit_routi_re_utilise_le_service_google_analytics_dans_l_application_en_vertu_des_conditions_g_n_rales_s_curit_routi_re_doit_informer_l_utilisateur_de_la_fa_on_dont_les_donn_es_seront_utilis_es_pour_plus_de_d_tails_consultez_les_r_gles_de_confidentialit_et_conditions_d_utilisation_de_google_https_www_google_com_intl_fr_policies_privacy_partners_s_curit_routi_re_conserve_par_ailleurs_l_information_sur_les_statistiques_de_visite_cette_information_est_enregistr_e_de_mani_re_anonyme_et_concerne_les_statistiques_de_visite_comme_les_pages_visit_es_liens_cliqu_s_favoris_enregistr_s_pour_comptabiliser_le_nombre_de_visiteurs_les_pages_les_plus_fr_quent_es_les_favoris_enregistr_s_la_technologie_utilis_e_par_la_client_le_de_ses_sites_les_sites_r_f_rents_et_le_pays_d_origine_des_internautes" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
